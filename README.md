@@ -52,15 +52,135 @@ Backend Development · Full-stack Development · System Design · Distributed Sy
 ### Database, DevOps & Infrastructure
 [![Database and Infra](https://skillicons.dev/icons?i=postgres,mongodb,redis,rabbitmq,docker,nginx,githubactions)](https://skillicons.dev)
 
-## Featured Projects
+## Selected Projects
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| [**TeamHub**](https://github.com/tvquang0511/TeamHub) | Real-time collaboration platform with Kanban, Gantt Timeline, Table views, background jobs, and AI-assisted task management. | React · Node.js · PostgreSQL · Redis · BullMQ · Socket.IO · Docker |
-| [**E-Commerce Platform**](https://github.com/tvquang0511/ECommerce) | Distributed microservices e-commerce platform with GraphQL federation and event-driven order and inventory processing. | Next.js · NestJS · GraphQL · PostgreSQL · MongoDB · Redis · RabbitMQ · Docker |
-| [**HTCAA**](https://htcaa.jarvis.cx/) | Enterprise association platform with an Admin Portal and AI-powered Member Mini-App. | Next.js · NestJS · PostgreSQL · GitHub Actions |
-| [**TicketBox**](https://github.com/tvquang0511/TicketBox) | High-concurrency event ticketing platform with interactive seat selection and offline-first QR check-in. | Next.js · React Native · Expo · React |
-| [**BoardGameOnline**](https://github.com/tvquang0511/BoardGameOnline) | Online multiplayer board game platform enabling real-time gameplay and matchmaking between players. | Node.js · Socket.IO · React · Redis |
+A selection of systems and applications I've built while exploring full-stack development, distributed systems, real-time applications, and AI-powered solutions.
+
+<table>
+<tr>
+<td colspan="2">
+
+### 🧩 TeamHub
+
+**Real-time collaboration platform for modern software teams.**
+
+A full-stack collaboration platform combining project management, real-time communication, background processing, and AI-assisted task management.
+
+**Highlights**
+
+    📋 Kanban, Gantt Timeline, and Table views<br>
+    🤖 AI-assisted task management<br>
+    ⚡ Background job processing with BullMQ<br>
+    🔴 Real-time collaboration with Socket.IO<br>
+    🐳 Containerized deployment with Docker
+
+**Tech Stack**
+
+`React` `Node.js` `PostgreSQL` `Redis` `BullMQ` `Socket.IO` `Docker`
+
+**[View Project →](https://github.com/tvquang0511/TeamHub)**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🏢 HTCAA System
+
+**Enterprise association platform with an AI-powered member experience.**
+
+A production-oriented platform consisting of an administrative portal and an AI-powered Member Mini-App.
+
+**Highlights**
+
+    🖥️ Enterprise Admin Portal<br>
+    🤖 AI-powered Member Mini-App<br>
+    🔐 Role-based management<br>
+    ⚙️ Automated CI/CD pipeline
+
+**Tech Stack**
+
+`Next.js` `NestJS` `PostgreSQL` `GitHub Actions`
+
+**[Live Demo →](https://htcaa.jarvis.cx/)**
+
+</td>
+
+<td width="50%">
+
+### 🛒 E-Commerce Platform
+
+**Distributed microservices e-commerce platform.**
+
+Designed around microservices, GraphQL Federation, and event-driven processing for orders and inventory.
+
+**Highlights**
+
+    🧩 GraphQL Federation<br>
+    📨 Event-driven architecture<br>
+    📦 Distributed order & inventory processing<br>
+    ⚡ Redis caching<br>
+    🐳 Dockerized services
+
+**Tech Stack**
+
+`Next.js` `NestJS` `GraphQL` `PostgreSQL` `MongoDB` `Redis` `RabbitMQ` `Docker`
+
+**[View Project →](https://github.com/tvquang0511/ECommerce)**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🎟️ TicketBox
+
+**High-concurrency event ticketing platform.**
+
+A ticketing system focused on real-time seat selection, concurrent booking, and offline-first event check-in.
+
+**Highlights**
+
+    💺 Interactive seat selection<br>
+    📱 React Native mobile application<br>
+    📷 Offline-first QR check-in<br>
+    ⚡ High-concurrency booking
+
+**Tech Stack**
+
+`Next.js` `React Native` `Expo` `React`
+
+**[View Project →](https://github.com/tvquang0511/TicketBox)**
+
+</td>
+
+<td width="50%">
+
+### 🎮 BoardGameOnline
+
+**Real-time multiplayer board game platform.**
+
+An online gaming platform enabling real-time gameplay and matchmaking between players.
+
+**Highlights**
+
+    🎯 Real-time multiplayer gameplay<br>
+    🔀 Player matchmaking<br>
+    🔴 WebSocket communication<br>
+    ⚡ Redis-powered state management
+
+**Tech Stack**
+
+`Node.js` `Socket.IO` `React` `Redis`
+
+**[View Project →](https://github.com/tvquang0511/BoardGameOnline)**
+
+</td>
+</tr>
+</table>
+
 
 ## Currently Learning
 
