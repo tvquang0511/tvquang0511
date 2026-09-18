@@ -54,11 +54,7 @@ Backend Development · Full-stack Development · System Design
 
 ## Featured Projects
 
-A curated selection of production-ready systems, distributed architectures, and experimental platforms.
-
----
-
-### 🧩 [TeamHub — Enterprise Real-Time Collaboration Platform](https://github.com/tvquang0511/TeamHub)
+### 💼 [TeamHub — Enterprise Real-Time Collaboration Platform](https://github.com/tvquang0511/TeamHub)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
