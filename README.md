@@ -52,134 +52,84 @@ Backend Development · Full-stack Development · System Design
 ### Database, DevOps & Infrastructure
 [![Database and Infra](https://skillicons.dev/icons?i=postgres,mongodb,redis,rabbitmq,docker,nginx,githubactions)](https://skillicons.dev)
 
-## Selected Projects
+## Featured Projects
 
-A selection of systems and applications I've built while exploring full-stack development, distributed systems, real-time applications, and AI-powered solutions.
+A curated selection of production-ready systems, distributed architectures, and experimental platforms.
 
-<table>
-<tr>
-<td colspan="2">
+---
 
-### 🧩 TeamHub
+### 🧩 [TeamHub — Enterprise Real-Time Collaboration Platform](https://github.com/tvquang0511/TeamHub)
 
-**Real-time collaboration platform for modern software teams.**
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-A full-stack collaboration platform combining project management, real-time communication, background processing, and AI-assisted task management.
+> Real-time team collaboration platform with asynchronous task orchestration and AI-assisted task workflows.
 
-**Highlights**
+* **Asynchronous Queuing:** Processed background notifications, digests, and heavy operations via **BullMQ & Redis**, avoiding API blocking during peak traffic.
+* **State Synchronization:** Integrated **Socket.IO** with a Redis Pub/Sub backplane for synchronized real-time Kanban view transitions.
+* **AI Task Automation:** Connected LLM endpoints to parse user specifications directly into structured, breakdown tasks.
+* **Containerized Deployment:** Packaged multi-service local staging using **Docker Compose** for reproducible environments.
 
-    📋 Kanban, Gantt Timeline, and Table views<br>
-    🤖 AI-assisted task management<br>
-    ⚡ Background job processing with BullMQ<br>
-    🔴 Real-time collaboration with Socket.IO<br>
-    🐳 Containerized deployment with Docker
+🔗 **[Source Code](https://github.com/tvquang0511/TeamHub)**
 
-**Tech Stack**
+---
 
-`React` `Node.js` `PostgreSQL` `Redis` `BullMQ` `Socket.IO` `Docker`
+### 🏢 [HTCAA System — Production Association Platform & AI Mini-App](https://dev.htcaa.vn/)
 
-**[View Project →](https://github.com/tvquang0511/TeamHub)**
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Production](https://img.shields.io/badge/Status-Live-success?style=flat-square)
 
-</td>
-</tr>
+> Production-grade organizational management system featuring an administrative portal and an AI-powered member assistant.
 
-<tr>
-<td width="50%">
+* **Granular Security:** Enforced strict **Role-Based Access Control (RBAC)** across multi-tier administrative dashboards.
+* **Automated CI/CD:** Built automated testing and deployment workflows using **GitHub Actions** directly targeting production servers.
+* **AI Member Assistant:** Integrated a context-aware conversational agent to streamline user onboarding and event inquiries.
 
-### 🏢 HTCAA System
+🌐 **[Live Demo](https://dev.htcaa.vn/)**
 
-**Enterprise association platform with an AI-powered member experience.**
+---
 
-A production-oriented platform consisting of an administrative portal and an AI-powered Member Mini-App.
+### 🛒 [E-Commerce Platform — Distributed Event-Driven Architecture](https://github.com/tvquang0511/ECommerce)
 
-**Highlights**
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-    🖥️ Enterprise Admin Portal<br>
-    🤖 AI-powered Member Mini-App<br>
-    🔐 Role-based management<br>
-    ⚙️ Automated CI/CD pipeline
+> Modular commerce system built with Apollo Federation, asynchronous event choreography, and polyglot persistence.
 
-**Tech Stack**
+* **Federated Gateway:** Unified isolated subgraphs (User, Product, Order, Inventory) under a single **GraphQL Federation** schema.
+* **Asynchronous Choreography:** Used **RabbitMQ** to decouple order placement from downstream stock deduction and notifications.
+* **Polyglot Storage:** Maintained transactional integrity in **PostgreSQL** alongside flexible catalog management in **MongoDB** and multi-level **Redis** caching.
 
-`Next.js` `NestJS` `PostgreSQL` `GitHub Actions`
+🔗 **[Source Code](https://github.com/tvquang0511/ECommerce)**
 
-**[Live Demo →](https://dev.htcaa.vn/)**
+---
 
-</td>
+### Other Notable Projects
 
-<td width="50%">
+* **[TicketBox](https://github.com/tvquang0511/TicketBox)** — Event ticketing application with seat locking via Redis atomic reservations and offline-first QR check-in.  
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+  ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+  ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-### 🛒 E-Commerce Platform
-
-**Distributed microservices e-commerce platform.**
-
-Designed around microservices, GraphQL Federation, and event-driven processing for orders and inventory.
-
-**Highlights**
-
-    🧩 GraphQL Federation<br>
-    📨 Event-driven architecture<br>
-    📦 Distributed order & inventory processing<br>
-    ⚡ Redis caching<br>
-    🐳 Dockerized services
-
-**Tech Stack**
-
-`Next.js` `NestJS` `GraphQL` `PostgreSQL` `MongoDB` `Redis` `RabbitMQ` `Docker`
-
-**[View Project →](https://github.com/tvquang0511/ECommerce)**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🎟️ TicketBox
-
-**High-concurrency event ticketing platform.**
-
-A ticketing system focused on real-time seat selection, concurrent booking, and offline-first event check-in.
-
-**Highlights**
-
-    💺 Interactive seat selection<br>
-    📱 React Native mobile application<br>
-    📷 Offline-first QR check-in<br>
-    ⚡ High-concurrency booking
-
-**Tech Stack**
-
-`Next.js` `React Native` `Expo` `React`
-
-**[View Project →](https://github.com/tvquang0511/TicketBox)**
-
-</td>
-
-<td width="50%">
-
-### 🎮 BoardGameOnline
-
-**Real-time multiplayer board game platform.**
-
-An online gaming platform enabling real-time gameplay and matchmaking between players.
-
-**Highlights**
-
-    🎯 Real-time multiplayer gameplay<br>
-    🔀 Player matchmaking<br>
-    🔴 WebSocket communication<br>
-    ⚡ Redis-powered state management
-
-**Tech Stack**
-
-`Node.js` `Socket.IO` `React` `Redis`
-
-**[View Project →](https://github.com/tvquang0511/BoardGameOnline)**
-
-</td>
-</tr>
-</table>
+* **[BoardGameOnline](https://github.com/tvquang0511/BoardGameOnline)** — Turn-based multiplayer web game using WebSockets for room matchmaking and real-time state broadcasts.  
+  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+  ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
+  ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 
 ## Currently Learning
