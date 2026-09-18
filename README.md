@@ -32,7 +32,7 @@ I'm a Software Engineering student at HCMUS with a focus on backend and full-sta
 
 ## What I Do
 
-Backend Development · Full-stack Development · System Design · Distributed Systems · AI-powered Applications
+Backend Development · Full-stack Development · System Design 
 
 ## Tech Stack
 
