@@ -103,7 +103,7 @@ A production-oriented platform consisting of an administrative portal and an AI-
 
 `Next.js` `NestJS` `PostgreSQL` `GitHub Actions`
 
-**[Live Demo →](https://htcaa.jarvis.cx/)**
+**[Live Demo →](https://dev.htcaa.vn/)**
 
 </td>
 
