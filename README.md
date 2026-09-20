@@ -54,7 +54,7 @@ Backend Development · Full-stack Development · System Design
 
 ## Featured Projects
 
-### 💼 [TeamHub — Enterprise Real-Time Collaboration Platform](https://github.com/tvquang0511/TeamHub)
+### [TeamHub — Enterprise Real-Time Collaboration Platform](https://github.com/tvquang0511/TeamHub)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -74,7 +74,7 @@ Backend Development · Full-stack Development · System Design
 
 ---
 
-### 🏢 [HTCAA System — Production Association Platform & AI Mini-App](https://dev.htcaa.vn/)
+### [HTCAA System — Production Association Platform & AI Mini-App](https://dev.htcaa.vn/)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
@@ -92,7 +92,7 @@ Backend Development · Full-stack Development · System Design
 
 ---
 
-### 🛒 [E-Commerce Platform — Distributed Event-Driven Architecture](https://github.com/tvquang0511/ECommerce)
+### [E-Commerce Platform — Distributed Event-Driven Architecture](https://github.com/tvquang0511/ECommerce)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
