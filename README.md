@@ -113,20 +113,45 @@ Backend Development · Full-stack Development · System Design
 
 ---
 
-### Other Notable Projects
+### [TicketBox — Event Ticketing & Check-in Platform](https://github.com/tvquang0511/TicketBox)
 
-* **[TicketBox](https://github.com/tvquang0511/TicketBox)** — Event ticketing application with seat locking via Redis atomic reservations and offline-first QR check-in.  
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-  ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-  ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-* **[BoardGameOnline](https://github.com/tvquang0511/BoardGameOnline)** — Turn-based multiplayer web game using WebSockets for room matchmaking and real-time state broadcasts.  
-  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-  ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
-  ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+> Event ticketing platform with ticket booking, online payments, and mobile QR check-in.
 
+* **Ticket Booking:** Used **Redis** to manage ticket stock and prevent overbooking.
+* **Order Processing:** Used **RabbitMQ** to process orders in the background and automatically release unpaid tickets.
+* **Payment Handling:** Added **Redis locking** to prevent duplicate payments.
+* **QR Check-in:** Built a mobile check-in app with **React Native (Expo)** that supports offline QR verification.
+
+🔗 **[Source Code](https://github.com/tvquang0511/TicketBox)**
+
+---
+
+### [Faroq — Shared Living & Roommate Management Platform](https://github.com/tvquang0511/FairRoom)
+
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+> Mobile app for students and young people to manage shared expenses and housework with roommates.
+
+* **Expense Management:** Split rent, bills, and other shared expenses between roommates.
+* **Debt Settlement:** Calculates and simplifies shared debts into fewer payments.
+* **VietQR Payments:** Generates **VietQR** codes with payment details for quick transfers.
+* **Chore Management:** Creates weekly chore schedules and tracks completed tasks to help roommates share housework fairly.
+* **Analytics:** Tracks monthly spending and weekly chore scores to help roommates review expenses and workload over time.
+
+🔗 **[Source Code](https://github.com/tvquang0511/FairRoom)**
+---
 
 ## Currently Learning
 
