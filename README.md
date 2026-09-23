@@ -113,7 +113,7 @@ Backend Development · Full-stack Development · System Design
 
 ---
 
-### [Tixora — Event Ticketing & Check-in Platform](https://github.com/tvquang0511/TicketBox)
+### [Tixora — Event Ticketing & Check-in Platform](https://github.com/tvquang0511/Tixora)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
