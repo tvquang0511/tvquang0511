@@ -113,7 +113,7 @@ Backend Development · Full-stack Development · System Design
 
 ---
 
-### [TicketBox — Event Ticketing & Check-in Platform](https://github.com/tvquang0511/TicketBox)
+### [Tixora — Event Ticketing & Check-in Platform](https://github.com/tvquang0511/TicketBox)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
@@ -131,7 +131,7 @@ Backend Development · Full-stack Development · System Design
 * **Payment Handling:** Added **Redis locking** to prevent duplicate payments.
 * **QR Check-in:** Built a mobile check-in app with **React Native (Expo)** that supports offline QR verification.
 
-🔗 **[Source Code](https://github.com/tvquang0511/TicketBox)**
+🔗 **[Source Code](https://github.com/tvquang0511/Tixora)**
 
 ---
 
@@ -151,6 +151,7 @@ Backend Development · Full-stack Development · System Design
 * **Analytics:** Tracks monthly spending and weekly chore scores to help roommates review expenses and workload over time.
 
 🔗 **[Source Code](https://github.com/tvquang0511/FairRoom)**
+
 ---
 
 ## Currently Learning
